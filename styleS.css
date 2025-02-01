@@ -1,0 +1,136 @@
+body{
+    background-image: url(images/setting.jpg);
+    height: 2700px;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    flex-direction: column; 
+    margin: 0;
+    padding: 0;
+}
+
+header{
+    padding: 20px;
+    text-align: center;
+}
+
+.header__data-text{
+    color: rgb(0, 0, 0);
+    font-size: 50px;
+}
+
+.header__data-text2{
+    color: rgb(0, 0, 0);
+    font-size: 30px;
+    margin-top: 20px;
+}
+
+.header__data-img{
+    height: 450px;
+}
+
+main{
+    padding: 20px;
+    padding-top: 50px;
+    color: rgb(0, 0, 0);
+}
+
+.main__data-text{
+    font-size: 45px;
+}
+
+.main__data-ol{
+    font-size: 35px; 
+}
+
+.main__data-ol_li2{
+    padding-top: 20px;
+}
+
+.main__data-ol_li3{
+    padding-top: 20px;
+}
+
+.main__data-text2{
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.main__data-ol2{
+    font-size: 35px; 
+}
+
+.main__data-ol2_li2{
+    padding-top: 20px;
+}
+
+.main__data-ol2_li3{
+    padding-top: 20px;
+}
+
+.main__data-text3{
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.main__data-ol3{
+    font-size: 35px; 
+}
+
+.main__data-ol3_li2{
+    padding-top: 20px;
+}
+
+.main__data-text4{
+    padding-top: 40px;
+    font-size: 45px;
+}
+
+.main__data-ol4{
+    font-size: 35px; 
+}
+
+.main__data-ol4_li2{
+    padding-top: 20px;
+}
+
+.footer__text{
+    margin-top: 20px;
+    color: rgb(0, 0, 0);
+    padding: 20px;
+    font-size: 35px;
+}
+
+.footer__button{
+    position: relative;
+    background-color: rgb(27, 133, 27) ;
+    width: 400px;
+    height: 70px;
+    border-radius: 15px;
+    border: none;
+    font-size: 30px;
+    cursor: pointer;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+
+.a2{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    height: 60px;
+    width: 370px;
+    background-color:  rgb(27, 133, 27)  ;
+    border-radius: 15px;
+    border: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 35px;
+    margin: auto;
+    margin-bottom: 50px;
+}

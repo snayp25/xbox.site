@@ -1,0 +1,340 @@
+/* html{
+    display: flex;
+    margin: auto;
+    width: 1200Px;
+
+    background-size: cover; 
+    background-position: center;
+} */
+
+header{
+    background-image: url('images/Star.png');
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    height: 700px;
+    justify-content: flex-end;
+    color: white;
+
+}
+
+.header__data-text{
+    display: block;
+}
+
+.header__data{
+    flex-direction: column;
+    display: flex;
+    height: 400px;
+    width: 400px;
+    padding-top: 190px;
+}
+
+.heade__data-buttons{
+    display: flex;
+    flex-direction: row;
+    width: 300px;
+    height: 30px;
+}
+
+.a{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+    width: 150px;
+    background-color: rgb(27, 133, 27) ;
+    border-radius: 7px;
+    border: none;
+    margin-left: 10px;
+    justify-content: center;
+    align-items: center;
+}
+
+.main__data1{
+    background-color: rgb(102, 99, 99);
+    height: 800px;
+
+}
+
+.main__data1-img{
+    padding-top: 20px;
+    display: flex;
+    margin: auto;
+}
+
+.main__data1-text{
+   text-align: center;
+}
+
+.main__data1-about{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    /* width: 1200px; */
+    height: 120px;
+    justify-content: center;
+}
+
+.main__data1-about1{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    font-size: 25px;
+    margin-right: 200px;
+}
+
+.a2{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+    width: 250px;
+    background-color: rgb(27, 133, 27) ;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.main__data1-about2{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    height: 450px;
+    background-color: white;
+    font-size: 25px;
+}
+
+.main__data1-about1_img{
+    margin-top: 40px ;
+    margin-bottom: 40px;
+}
+
+.main__text1{
+    padding-bottom: 30px;
+    padding-left: 10px;
+}
+
+.main__text{
+    padding-left: 10px;
+}
+
+
+
+.main2{
+    background-image: url(images/Rectangle.png);
+    height: 800px;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    /* color: white; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main2__data-text{
+    text-align: center;
+}
+
+.main2__data-about{
+    padding-top: 100px;
+    justify-content: center;
+    display: flex;
+    background-size: cover;
+    /* width: 1200px;
+    height: 120px; */
+    justify-content: center;
+}
+
+.main2__data-about1{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    font-size: 25px;
+    margin-right: 150px;
+}
+
+.main2__data-about2{
+    display: flex;
+    flex-direction: column;
+    width: 250px;
+    height: 420px;
+    background-color: white;
+    font-size: 25px;    
+}
+
+.main2__data-about4_img{
+    height: 140px;
+}
+
+.a3{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    height: 30px;
+    width: 200px;
+    background-color: rgb(27, 133, 27) ;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 15px;
+}
+
+.main2__data-about_text{
+    padding-bottom: 130px;
+    padding-left: 10px;
+}
+
+.main2__data-about1_text{
+    padding-left: 10px;
+}
+
+.main3{
+    display: flex;
+    justify-content: center;
+}
+
+.a4{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    height: 50px;
+    width: 280px;
+    background-color: rgb(110, 110, 110) ;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+.main3{
+    background-image: url(images/Leonardо_1.jpg);
+    height: 600px;
+    background-size: cover; 
+    background-position: center;
+    display: flex;
+    /* color: white; */
+    justify-content: center;
+    flex-direction: column;
+}
+
+.main3__data{
+    display: flex;
+    flex-direction: column;
+    justify-content: start;
+    width: 900px;
+    height: 800px;
+    padding-left: 10px;
+}
+
+.main3__data-text{
+    font-size: 50px;
+}
+
+.main3__data-text2{
+    font-size: 40px;
+}
+
+.main3__data-buttons{
+    display: flex;
+    flex-direction: row;
+    padding-top: 100px;
+}
+
+.a5{
+    display: flex;
+    color: rgb(0, 0, 0);
+    text-decoration: none;
+    cursor: pointer;
+    height: 50px;
+    width: 370px;
+    background-color:  rgb(27, 133, 27)  ;
+    border-radius: 7px;
+    border: none;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row;
+    font-size: 25px;
+    margin: auto;
+    margin-bottom: 50px;
+}
+
+footer{
+    display: flex;
+    background-image: url(images/L.jpg);
+    height: 470px;
+    background-position: center;
+    flex-direction: column;
+    color: white;
+    background-repeat: no-repeat;
+    background-size: cover;
+    width: 100%;
+}
+
+.footer__data{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+
+.footer__data-about{
+    display: flex;
+    flex-direction: column;
+    width: 400px;
+    padding-left: 200px;
+}
+
+.a6{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-bottom: 40px;
+    font-size: 25px;
+    cursor: pointer;
+}
+
+.a7{
+    color: rgb(255, 255, 255);
+    text-decoration: none;
+    padding-top: 20px;
+    padding-bottom: 45px;
+    font-weight: bolder;
+    font-size: 30px;
+    cursor: pointer;
+}
+
+.footer__img{
+    padding-left: 20px;
+}
+
+.footer__footer{
+    display: flex;
+    padding-top: 60px;
+    padding-right: 20px;
+    justify-content: flex-end;
+}
+
+.footer__footer-text2{
+    padding-left: 1580px;
+}
